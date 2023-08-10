@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="inicio">
+        <div class="section-1-bg">
+            <aside>
+                <div class="icon-menu" onclick="abrirmenu()">
+                    <img src="Images/menu-aberto.png">
+                </div><!--icon-menu-->  
+                <nav>
+                    <div id="barra-menu" style="width: 0;">
+                        <ul>
+                            <li>
+                                <a href="#inicio" class="active">Início</a>
+                            </li>
+                            <li>
+                                <a href="#sobremim">Sobre mim</a>
+                            </li>
+                            <li>
+                                <a href="#servicos">Serviços</a>
+                            </li>
+                            <li>
+                                <a href="#projetos">Projetos</a>
+                            </li>
+                            <li>
+                                <a href="#contatos">Contatos</a>
+                            </li>
+                        </ul>
+                    </div><!--barra-menu-->
+                </nav><!--nav-->
+            </aside>
+            <div class="bx bx-moon" id="darkmodeicon"></div>
+            <div class="main-title">
+                <h1>Meu nome é Lucca</h1>
+                <h2>Sou desenvolvedor web</h2>
+                <h5>Buscando uma oportunidade
+                    para engreçar no mercado de trabalho como desenvolvedor web</h5>
+                <a class="btn" href="https://profile-api-prod.s3.us-west-2.amazonaws.com/484199136_98b905fa-1ad2-464f-a3ee-ba53e58d9cd3?response-content-disposition=attachment%3Bfilename%3DCurriculo.rtf&response-content-type=application%2Frtf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230728T205745Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=AKIAZKXXDXTXZF2KYWCD%2F20230728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=743d43e1ec60da835d97038949e594061ad126cc8603e544c670f9796b40ed00" class="active">Download Cv</a>
+
+                <div class="socialmedia">
+                    <a href="https://github.com/LuccaJunqueira"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/lucca-junqueira-teixeira-217b66257/"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzGtwMfcGsjgBZHJRLSjsRrGnJnM?compose=lqrsmGhHCVWqpLDlWJDZgJHBhpbxfWRgQsNfglMSRMkPkgrpkwJSgKdRKSptSJcMRHHHdQnHFtwshGwzp"><i class='bx bxl-gmail' ></i></a>
+                </div>
+            </div><!--main-title-->
+        </div><!--section-1-bg-->
+    </section><!--section-inicio-->
+
+    <section id="sobremim" class="C-sobre" data-aos="fade-up">
+        <div class="image">
+            <img src="Images/about.jpg">
+        </div><!--image-->
+
+        <div class="Sobre-mim">
+            <h1>Sobre mim</h1>
+            <h4>Desenvolvedor & <span>design</span></h4>
+            <p>Sou um Desenvolvedor web front-end. Posso fornecer códigos limpos e responsivos,<br> deixar o website mais interativo com animações web por exemplo.<br> 
+            Atualmente cursando análise e desenvolvemento de sistemas.</p>
+            <div class="buttons">
+                <button class="btn" onclick="servicos()" >Meus serviços</button>
+                <button class="btn" onclick="projetos()" >Meus projetos</button>
+            </div>
+        </div><!--Sobre-mim-->
+    </section><!--C-sobre-->
+
+    <section id="servicos" class="Container"data-aos="fade-up">
+        <h1>Serviços</h1>
+        <p>Nossos serviços pra você:</p>
+
+        <div class="C-card" data-aos="fade-up">
+            <div class="Card">
+                <img src="Images/phone.png" alt="phone">
+                <h3>Desenvolvimento Mobile</h3>
+                <h4>Cada detalhe é pensado para proporcionar a melhor experiência e usabilidade. Projetos desenvolvidos sob medida, da ideia a concepção</h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="Images/desktop.png" alt="desktop">
+                <h3>Desenvolvimento web</h3>
+                <h4>Os sites devem ser construidos com dois principais objetivos: Primeiramente, ele precisa funcionar em todos os dispositivos. Segundo, ele precisa ser mais rapido possivel</h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="Images/grafico.png" alt="grafico">
+                <h3>Desenvolvimento de marca</h3>
+                <h4>Desenvolver o reconhecimento das marcas, nós podemos ajudar sua marca a encontrar crescimento sustentável em um mundo em transformação</h4>
+            </div><!--Card-->
+        </div><!--C-card-->
+
+        <div class="C-card-2" data-aos="fade-up">
+            <div class="Card">
+                <img src="Images/computador.png" alt="computador">
+                <h3>Acessibilidade</h3>
+                <h4>Um design inclusivo garante que o site seja acessível a usuários com deficiência. Isso envolve o uso de contrastes de cores apropriados, fornecendo texto alternativo para imagens e aderindo aos padrões de acessibilidade da web.</h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="Images/camera.png" alt="camera">
+                <h3>Imagens e layouts</h3>
+                <h4>Um site bem projetado captura a atenção dos usuários por meio de layouts, esquemas de cores, tipografia e imagens esteticamente agradáveis. Elementos de marca consistentes, como logotipos, fontes e cores, contribuem para uma aparência profissional e coesa.</h4>
+            </div><!--Card-->
+
+            <div class="Card">
+                <img src="Images/paisagem.png" alt="paisagem">
+                <h3>Web Design</h3>
+                <h4>Um design de site eficaz apresenta informações de maneira estruturada com títulos, seções e menus de navegação claros. Os usuários devem ser capazes de encontrar o que procuram sem confusão ou frustração.</h4>
+            </div><!--Card-->
+        </div><!--C-card-2-->
+    </section><!--container-->
+
+    <section id="projetos" class="C-projetos" data-aos="fade-up">
+        <h1>Meus projetos</h1>
+        <p>Meus projetos acadêmicos, freelancer e por conta própria</p>
+
+        <div class="img-projetos" data-aos="fade-up">
+            <div class="img-projetos-box">
+                <img src="Images/projeto-1.png" alt="Projeto">
+
+                <div class="img-projetos-layer">
+
+                    <h4>Site para comércio eletrônico, com modo claro e escuro</h4>
+                    <h2>Tecnologias utilizadas:</h2>
+                    <div class="tecnologias-utilizadas">
+                        <a href="https://github.com/LuccaJunqueira/Landing-page/blob/main/index.html"><i class='bx bxl-html5'></i></a>
+                        <a href="https://github.com/LuccaJunqueira/Landing-page/blob/main/style.css"><i class='bx bxl-css3'></i> </a>
+                        <a href="https://github.com/LuccaJunqueira/Landing-page/blob/main/script.js"><i class='bx bxl-javascript'></i></a>
+                    </div><!--tecnologias-utilizadas-->
+                    <div class="link-externo">
+                        <a href="https://luccajunqueira.github.io/Landing-page/"><i class='bx bx-link-external'></i></a>
+                    </div><!--link-externo-->
+                </div><!--img-projetos-layer-->
+            </div><!--img-projetos-box-->
+
+            <div class="img-projetos-box">
+                <img src="Images/projeto-2.png" alt="Projeto">
+
+                <div class="img-projetos-layer">
+                    
+                    <h4>Formulário funcional e responsivo, com e-mail, nome, telefone etc...</h4>
+                    <h2>Tecnologias utilizadas:</h2>
+                    <div class="tecnologias-utilizadas">
+                        <a href="https://github.com/LuccaJunqueira/Website-login/blob/main/index.html"><i class='bx bxl-html5'></i></a>
+                        <a href="https://github.com/LuccaJunqueira/Website-login/blob/main/style.css"><i class='bx bxl-css3'></i> </a>
+                        <a href="https://github.com/LuccaJunqueira/Website-login/blob/main/script.js"><i class='bx bxl-javascript'></i></a>
+                    </div><!--tecnologias-utilizadas-->
+                    <div class="link-externo">
+                        <a href="https://luccajunqueira.github.io/Website-login"><i class='bx bx-link-external'></i></a>
+                    </div><!--link-externo-->
+                </div><!--img-projetos-layer-->
+            </div><!--img-projetos-box-->
+
+            <div class="img-projetos-box">
+                <img src="Images/projeto-3.png" alt="Projeto">
+
+                <div class="img-projetos-layer">
+                    
+                    <h4>Relógio digital e funcional, responsivo em diversos aparelhos</h4>
+                    <h2>Tecnologias utilizadas:</h2>
+                    <div class="tecnologias-utilizadas">
+                        <a href="https://github.com/LuccaJunqueira/Relogio-digital/blob/main/index.html"><i class='bx bxl-html5'></i></a>
+                        <a href="https://github.com/LuccaJunqueira/Relogio-digital/blob/main/assets/style.css"><i class='bx bxl-css3'></i> </a>
+                        <a href="https://github.com/LuccaJunqueira/Relogio-digital/blob/main/assets/script.js"><i class='bx bxl-javascript'></i></a>
+                    </div><!--tecnologias-utilizadas-->
+                    <div class="link-externo">
+                        <a href="https://luccajunqueira.github.io/Relogio-digital"><i class='bx bx-link-external'></i></a>
+                    </div><!--link-externo-->
+                </div><!--img-projetos-layer-->
+            </div><!--img-projetos-box-->       
+        </div><!--img-projetos-->
+    </section><!--C-projetos-->
+
+    <section id="contatos" class="C-rodapé">
+        <h1>Nos envie uma mensagem para a gente fechar projeto </h1>
+        <form action="#">  
+            <div class="input-box">
+                <input type="text" placeholder="Nome completo">
+                <input type="email" placeholder="Endereço de email">
+            </div><!--input-box-->
+            <div class="input-box">
+                <input type="number" placeholder="Número de telefone">
+                <input type="text" placeholder="Assunto do email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            </div><!--input-box-->
+            
+            <input type="submit" value="Enviar mensagem" class="btn">
+        </form>
+    </section><!--C-rodapé-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Lucca.J | All Rights Reserved.</p>
+        </div>
+        
+        <div class="footer-iconTop">
+            <a href="#inicio"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    
+    <script src="script.js"></script> 
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
