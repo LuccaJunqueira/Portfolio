@@ -14,32 +14,43 @@
 
 :root{
     --text-color: #2e2c2c;
-    --bg-color: #08082F;
+    --text-h2-color: #231a2c;
+    --bg-color: #231a2c;
+    --bg-color2: #231a2c;
+    --bg-color3: #231a2c;
     --second-color: #fff;
     --big-font: 5.5rem;
     --p-font: 1rem;
-    --main-color: #747409;
+    --main-color: #462643;
     --bg-all-color: #fff; 
     --shadow-color: #525050;
-    --button-color: #747409;
+    --shadow-color2: #858585;
+    --button-color: #462643;
     --button-second-color: #fff;
     --button-third-color: #08082f;
+    --button-fourth-color: #572e54;
     --white-color: #fff;
     --black-color: #000000;
     --white-color2: #fff;
     --black-color2: #000000;
-    --text-color2: #747409;
+    --text-color2: #572e54;
 }
 
 .dark-mode {
     --text-color: #fff;
-    --bg-color: #747409;
-    --second-color: #2e2c2c;
-    --main-color: #08082f;
-    --bg-all-color: #0a0a41;
+    --text-h2-color: #fff;
+    --text-color2: #7666A5;
+    --bg-color: #382c58;
+    --bg-color2: #fff;
+    --bg-color3: #382c58;
+    --second-color: #231a2c;
+    --main-color: #382B46;
+    --bg-all-color: #462643;
     --shadow-color: #181717;
-    --button-color: #08082f;
+    --shadow-color2: #181717;
+    --button-color: #382c58;
     --button-second-color: #fff;
+    --button-fourth-color: #382c58;
     --white-color2: #00000;
     --black-color: #fff;
 
@@ -85,7 +96,7 @@ aside{
 
 #darkmodeicon {
     font-size: 2.4rem;
-    color: var(--text-color);
+    color: var(--bg-color2);
     cursor: pointer;
     position: static;
     top: 0;
@@ -142,7 +153,7 @@ aside{
 }
 
 .main-title h2{
-    color: var(--text-color);
+    color: var(--text-h2-color);
     font-size: 50px;
     font-family: "Hanuman";
     letter-spacing: 2px;
@@ -196,7 +207,7 @@ aside{
     font-size: 25px;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    box-shadow: 4px 4px 4px var(--shadow-color2), 4px 4px 4px var(--shadow-color2);
     transition-duration: .9s;
     display: flex;
     justify-content: space-around;
@@ -296,7 +307,7 @@ aside{
     display: flex;    
 }
 .Sobre-mim button{
-    background-color: var(--button-color);
+    background-color: var(--button-fourth-color);
     margin-left: 10%;
     margin-top: 30px;
     padding: 10px 50px ;
@@ -313,7 +324,7 @@ aside{
 }
 
 .Sobre-mim button:hover{
-    color: var(--button-color);
+    color: var(--button-fourth-color);
     transform: translate(0.9s);
     background: var(--button-second-color);
     transition: 0.8s;
@@ -619,7 +630,7 @@ aside{
 }
 .footer-iconTop a i{
     font-size: 1.5rem;
-    color: var(--shadow-color);
+    color: var(--bg-color3);
 }
 
 /*Breaking point */
