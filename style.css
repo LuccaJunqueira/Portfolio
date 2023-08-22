@@ -1367,6 +1367,10 @@ aside{
 
 @media (max-width: 695px) {
     
+    .section-1-bg{
+        background-image: url(Images/backgroundimage2.JPG);
+    }
+    
     .C-sobre .buttons {
         margin-left: 0rem;
         margin-right: 4rem;
